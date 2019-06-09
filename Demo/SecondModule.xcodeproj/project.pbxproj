@@ -58,7 +58,6 @@
 				D9FD3B7A8EBDA9337E51A6ED /* Pods-SecondModule.debug.xcconfig */,
 				3F99B3190819B2AC3747719F /* Pods-SecondModule.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -173,6 +172,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SecondModule/Pods-SecondModule-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirstModule/FirstModule.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/MediatorModule/MediatorModule.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/SecondModule/SecondModule.bundle",
 			);
@@ -180,6 +180,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirstModule.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MediatorModule.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SecondModule.bundle",
 			);
